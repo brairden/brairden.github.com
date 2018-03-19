@@ -5,13 +5,13 @@ html {
 }
 
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
 }
 
 hr {
-  max-width: 50px;
+  max-width: 100px;
   border-width: 3px;
-  border-color: #F05F40;
+  border-color: #e85656;
 }
 
 hr.light {
@@ -19,14 +19,14 @@ hr.light {
 }
 
 a {
-  color: #F05F40;
+  color: #fff;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 a:hover {
-  color: #f05f40;
+  color: #fff;
 }
 
 h1,
@@ -35,15 +35,22 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #626168;
+}
+
+h2 {
+  font-size: 3rem !important;
 }
 
 .bg-primary {
-  background-color: #F05F40 !important;
+  background-color: #35323b !important;
 }
 
-.bg-dark {
-  background-color: #212529 !important;
+.bg-accent {
+  background-color: #e85656 !important;
 }
 
 .text-faded {
@@ -127,7 +134,7 @@ img::-moz-selection {
 @media (min-width: 992px) {
   #mainNav {
     border-color: transparent;
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.7);
   }
   #mainNav .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
@@ -169,7 +176,7 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/header.jpg");
+  background-image: url("http://i.cubeupload.com/R9nPip.jpg");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -183,7 +190,11 @@ header.masthead hr {
 }
 
 header.masthead h1 {
-  font-size: 2rem;
+  font-size: 4rem;
+  color: white;
+  font-family: "Raleway","Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 300;
+  letter-spacing: 4px;
 }
 
 header.masthead p {
@@ -191,8 +202,8 @@ header.masthead p {
 }
 
 @media (min-width: 768px) {
-  header.masthead p {
-    font-size: 1.15rem;
+  span.sub-header {
+    font-size: 1.5rem;
   }
 }
 
@@ -216,6 +227,8 @@ header.masthead p {
 
 .service-box {
   max-width: 400px;
+  background-color: #35323b;
+  color: #c8c8c5 !important;
 }
 
 .portfolio-box {
@@ -309,4 +322,78 @@ header.masthead p {
 
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+}
+
+.accent-text {
+  color: #e85656;
+}
+
+.sub-header {
+  font-family: "Raleway", "Helvetica Neue", Helvetica, sans-serif;
+  letter-spacing: 4px;
+}
+
+.sub-header-outline {
+  border: 2px solid #e85656;
+}
+
+.about, .work {
+/*   background-color: #35323b !important; */
+  color: #c8c8c5 !important;
+  font-size: 1.25rem;
+}
+
+.headers-box {
+    padding: .3em .9em;
+    border: 1px solid #e85656;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.portfolio {
+  background-image: url("http://i.cubeupload.com/6UJhxf.jpg");
+  background-position: center bottom;
+}
+
+.fill {
+    min-height: 100%;
+    height: 100%;
+}
+
+.underline-title {
+  text-align: right;
+    border-bottom: 1px solid #e85656;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.small-description {
+  font-size: .75rem;
+}
+
+.job-entry, .edu-entry {
+  margin-bottom: 2rem;
+}
+
+.old-job {
+  font-size: 1rem;
+}
+
+.text-dark {
+  color: #35323b !important;
+}
+
+.bg-accent-hr {
+  border-color: #35323b;
+}
+
+.button-socicon [class^="socicon-"], .button-socicon [class*=" socicon-"] {
+  margin-right: 0.3em;
+}
+
+.btn-secondary {
+  background-color: #35323b;
+  border-color: #35323b;
+  text-transform: none;
+  font-weight: normal;
 }
