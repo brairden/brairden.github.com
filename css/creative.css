@@ -176,7 +176,7 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("https://i.imgur.com/q3DFiex.jpg");
+  background-image: url("../img/masthead.jpg");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -351,7 +351,7 @@ header.masthead p {
 }
 
 .portfolio {
-  background-image: url("https://i.imgur.com/ZlFc8Cl.jpg");
+  background-image: url("../img/portfolio.jpg");
   background-position: center bottom;
 }
 
